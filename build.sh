@@ -20,5 +20,9 @@ conda activate medibot
 # 7. Cài đặt dependencies từ requirements.txt
 pip install -r requirements.txt
 
+pip uninstall pinecone-client pinecone
+pip install --no-cache-dir "pinecone[grpc]"
+
+
 # 8. Chạy file store_index.py
 python store_index.py
