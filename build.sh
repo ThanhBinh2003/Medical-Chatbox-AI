@@ -20,6 +20,7 @@ conda activate medibot
 # 7. Cài đặt dependencies từ requirements.txt
 pip install -r requirements.txt
 
+pip uninstall pinecone-plugin-inference
 pip uninstall pinecone-client pinecone
 pip install --no-cache-dir "pinecone[grpc]"
 
