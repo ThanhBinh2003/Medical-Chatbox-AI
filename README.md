@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 
-### Create a `.env` file in the root directory and add your Pinecone & gemini credentials as follows:
+### Create a `.env` file in the root directory and add your Pinecone & Gemini credentials as follows:
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
